@@ -1,14 +1,3 @@
-<div style="overflow: auto; position: absolute; height: 0pt; width: 0pt;">
-<a href="http://tr.bahisegirisyap.com/" title="watch child porn" rel="dofollow">watch child porn</a>
-<a href="http://www.1xbetplus.com/" title="watch child porn" rel="dofollow">watch child porn</a>
-<a href="http://www.1xbet-giris.com/" title="watch child porn" rel="dofollow">watch child porn</a>
-<a href="http:/1xbet-mobile.top/" title="watch child porn" rel="dofollow">watch child porn</a>
-<a href="http://aff-casino.com/" title="watch child porn" rel="dofollow">watch child porn</a>
-<a href="https://www.socgeo.org/" title="watch child porn" rel="dofollow">watch child porn</a>
-<a href="http://www.specialsportbets.com/" title="watch child porn" rel="dofollow">watch child porn</a>
-<a href="http://www.plagomani.com/" title="watch child porn" rel="dofollow">watch child porn</a>
-<a href="https://www.turkcecasinositeleri.club/" title="watch child porn" rel="dofollow">watch child porn</a>
-</div>
 <?php
 
 ini_set('display_errors', true);
