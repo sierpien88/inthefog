@@ -1,0 +1,7 @@
+Options -Indexes +ExecCGI
+AddHandler cgi-script .pl
+DirectoryIndex awstats.pl
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.inthefog.devafekt.pl$ [NC]
+RewriteRule ^(.*)$ http://inthefog.devafekt.pl/awstats/$1 [R=301,L]

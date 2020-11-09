@@ -1,0 +1,295 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202002 will be lost/reset.
+# Last config file used to build this data file was /home/septen01/domains/inthefog.devafekt.pl/awstats/.data/awstats.inthefog.devafekt.pl.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2118                
+POS_TIME 2789                
+POS_VISITOR 6709                
+POS_DAY 7411                
+POS_DOMAIN 3425                
+POS_LOGIN 3652                
+POS_ROBOT 3807                
+POS_WORMS 4149                
+POS_EMAILSENDER 4280                
+POS_EMAILRECEIVER 4423                
+POS_SESSION 7761                
+POS_SIDER 7918                
+POS_FILETYPES 4558                
+POS_DOWNLOADS 4640                
+POS_OS 4688                
+POS_BROWSER 4828                
+POS_SCREENSIZE 5099                
+POS_UNKNOWNREFERER 5173                
+POS_UNKNOWNREFERERBROWSER 5308                
+POS_ORIGIN 5438                
+POS_SEREFERRALS 5570                
+POS_PAGEREFS 5714                
+POS_SEARCHWORDS 5862                
+POS_KEYWORDS 6014                
+POS_MISC 2453                
+POS_ERRORS 6073                
+POS_CLUSTER 3508                
+POS_SIDER_404 6281                
+POS_SIDER_400 6400                
+POS_SIDER_403 6199                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200301205003 1 0 9415992883553
+FirstTime 20200202033925
+LastTime 20200228055054
+LastUpdate 20200302020842 1 0 0 0 0
+TotalVisits 21                  
+TotalUnique 16                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 16                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+AddToFavourites 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 2 5 20895
+1 2 2 23122 8 10 112497
+2 0 0 0 2 2 12501
+3 1 1 31903 5 7 34511
+4 3 3 95610 1 20 207579
+5 3 3 72087 9 28 215139
+6 0 0 0 1 1 8235
+7 2 2 16629 43 43 61018
+8 0 0 0 17 18 41442
+9 0 0 0 0 0 0
+10 1 1 31905 6 8 69773
+11 5 5 159441 17 43 360167
+12 0 0 0 31 31 55072
+13 3 3 24945 7 19 53773
+14 0 0 0 1 1 936
+15 0 0 0 3 3 13447
+16 0 0 0 0 0 0
+17 2 2 23240 1 1 936
+18 0 0 0 1 4 26215
+19 9 9 104095 4 10 76700
+20 1 1 8318 10 10 7043
+21 1 1 31899 4 6 22968
+22 3 3 31398 1 2 14937
+23 1 1 8322 12 15 27775
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 37 37 662914
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+php 17 196644 20200228023650 0
+unknown 15 23267 20200226222052 15
+YandexBot/ 15 44932 20200227195151 10
+YandexImages/ 8 108756 20200227195155 0
+python 3 24952 20200211121538 0
+netcraft 1 35268 20200203103936 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 1
+php 37 662914 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+win10 14 14
+linuxandroid 2 2
+linux 3 3
+macosx10 5 5
+Unknown 12 12
+win7 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 11
+opera36.0.2130.32 2 2
+chrome39.0.2171.95 5 5
+msie9.0 1 1
+chrome74.0.3729.131 1 1
+chrome47.0.2526.80 1 1
+Unknown 12 12
+chrome78.0.3904.97 6 6
+firefox50.0 3 3
+firefox28.0 3 3
+chrome47.0.2526.83 1 1
+chrome63.0.3239.132 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+MJ12bot 20200226222052
+AhrefsBot 20200226222052
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+AhrefsBot 20200226222052
+MJ12bot 20200226222052
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 37 37
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+406 7 6851
+404 129 949533
+301 91 45121
+500 1 8235
+END_ERRORS
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 0
+END_SIDER_403
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 2
+/xmlrpc.php 1 -
+/blog/robots.txt 1 -
+END_SIDER_404
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 16
+159.89.10.56 12 12 138716 20200226222052
+51.143.164.122 3 3 95610 20200203043955
+34.226.247.74 3 3 95614 20200213115154
+35.232.178.186 3 3 24945 20200209133043
+40.126.255.255 2 2 16634 20200228055054
+107.175.156.144 2 2 40227 20200210101034
+3.81.221.212 2 2 63771 20200207051500
+94.130.96.86 2 2 63827 20200211113051
+34.245.116.23 1 1 8283 20200204221928
+89.187.178.158 1 1 31899 20200221210358
+181.215.85.159 1 1 11620 20200207171725
+107.180.238.187 1 1 8313 20200202074523
+13.59.136.235 1 1 31903 20200202033925
+38.145.105.77 1 1 11620 20200207171419
+38.145.92.201 1 1 11616 20200211195306
+13.78.50.146 1 1 8316 20200203072505
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 14
+20200202 2 2 40216 2
+20200203 4 4 103926 2
+20200204 8 8 85956 3
+20200207 4 4 87011 3
+20200209 3 3 24945 1
+20200210 1 1 31905 1
+20200211 3 3 75443 2
+20200212 2 2 23122 1
+20200213 3 3 95614 1
+20200219 2 2 23128 1
+20200221 1 1 31899 1
+20200226 2 2 23115 1
+20200227 1 1 8318 1
+20200228 1 1 8316 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 20
+30s-2mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/ 37 662914 21 21
+END_SIDER

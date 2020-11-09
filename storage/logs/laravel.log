@@ -1,0 +1,132 @@
+[2018-09-06 16:17:07] local.ERROR: syntax error, unexpected '|', expecting variable (T_VARIABLE) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected '|', expecting variable (T_VARIABLE) at /home/chmiello/domains/hurtownia.septen.pl/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php:24)
+[stacktrace]
+#0 /home/chmiello/domains/hurtownia.septen.pl/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile('/home/chmiello/...')
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('Illuminate\\\\Supp...')
+#2 /home/chmiello/domains/hurtownia.septen.pl/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(22): spl_autoload_call('Illuminate\\\\Supp...')
+#3 /home/chmiello/domains/hurtownia.septen.pl/vendor/composer/ClassLoader.php(444): include('/home/chmiello/...')
+#4 /home/chmiello/domains/hurtownia.septen.pl/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile('/home/chmiello/...')
+#5 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('Illuminate\\\\Data...')
+#6 /home/chmiello/domains/hurtownia.septen.pl/vendor/laravel/framework/src/Illuminate/Database/DatabaseServiceProvider.php(35): spl_autoload_call('Illuminate\\\\Data...')
+#7 /home/chmiello/domains/hurtownia.septen.pl/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(572): Illuminate\\Database\\DatabaseServiceProvider->register()
+#8 /home/chmiello/domains/hurtownia.septen.pl/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Illuminate\\Database\\DatabaseServiceProvider))
+#9 /home/chmiello/domains/hurtownia.septen.pl/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(548): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#10 /home/chmiello/domains/hurtownia.septen.pl/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#11 /home/chmiello/domains/hurtownia.septen.pl/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(206): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#12 /home/chmiello/domains/hurtownia.septen.pl/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#13 /home/chmiello/domains/hurtownia.septen.pl/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#14 /home/chmiello/domains/hurtownia.septen.pl/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#15 /home/chmiello/domains/hurtownia.septen.pl/public_html/index.php(58): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#16 {main}
+"} 
+[2018-09-06 16:17:07] local.ERROR: syntax error, unexpected '?' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected '?' at /home/chmiello/domains/hurtownia.septen.pl/vendor/symfony/http-foundation/Response.php:501)
+[stacktrace]
+#0 /home/chmiello/domains/hurtownia.septen.pl/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile('/home/chmiello/...')
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('Symfony\\\\Compone...')
+#2 /home/chmiello/domains/hurtownia.septen.pl/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(301): spl_autoload_call('Symfony\\\\Compone...')
+#3 /home/chmiello/domains/hurtownia.septen.pl/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(281): Illuminate\\Foundation\\Exceptions\\Handler->convertExceptionToResponse(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#4 /home/chmiello/domains/hurtownia.septen.pl/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(188): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 /home/chmiello/domains/hurtownia.septen.pl/app/Exceptions/Handler.php(49): Illuminate\\Foundation\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 /home/chmiello/domains/hurtownia.septen.pl/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(326): App\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 /home/chmiello/domains/hurtownia.septen.pl/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(124): Illuminate\\Foundation\\Http\\Kernel->renderException(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#8 /home/chmiello/domains/hurtownia.septen.pl/public_html/index.php(58): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#9 {main}
+"} 
+[2018-09-06 16:17:07] local.ERROR: Exception thrown without a stack frame {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 16): Exception thrown without a stack frame at Unknown:0)
+[stacktrace]
+#0 {main}
+"} 
+[2018-10-15 12:39:45] local.ERROR: Command "make" is not defined.
+
+Did you mean one of these?
+    make:auth
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test
+    module:make
+    module:make-command
+    module:make-controller
+    module:make-event
+    module:make-factory
+    module:make-job
+    module:make-listener
+    module:make-mail
+    module:make-middleware
+    module:make-migration
+    module:make-model
+    module:make-notification
+    module:make-policy
+    module:make-provider
+    module:make-request
+    module:make-resource
+    module:make-rule
+    module:make-seed
+    module:make-test {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make\" is not defined.
+
+Did you mean one of these?
+    make:auth
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test
+    module:make
+    module:make-command
+    module:make-controller
+    module:make-event
+    module:make-factory
+    module:make-job
+    module:make-listener
+    module:make-mail
+    module:make-middleware
+    module:make-migration
+    module:make-model
+    module:make-notification
+    module:make-policy
+    module:make-provider
+    module:make-request
+    module:make-resource
+    module:make-rule
+    module:make-seed
+    module:make-test at /var/www/Projekty/hurtownia.septen.pl/vendor/symfony/console/Application.php:632)
+[stacktrace]
+#0 /var/www/Projekty/hurtownia.septen.pl/vendor/symfony/console/Application.php(226): Symfony\\Component\\Console\\Application->find('make')
+#1 /var/www/Projekty/hurtownia.septen.pl/vendor/symfony/console/Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /var/www/Projekty/hurtownia.septen.pl/vendor/laravel/framework/src/Illuminate/Console/Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /var/www/Projekty/hurtownia.septen.pl/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /var/www/Projekty/hurtownia.septen.pl/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
