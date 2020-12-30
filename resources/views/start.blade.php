@@ -24,16 +24,25 @@ include "config.php";
 </head>
 
 <body>
-
+<div id="loader-wrapper">
+    <div class="load">
+        <p>we mgle nie ma znaczenia skąd <br/> przychodzimy... <br/>
+            ważne jest dokąd idziemy.</p>
+        <div class="enter"><a href="{{ route('index') }}/?lang=pl">WEJDŹ</a> <span> | </span><a
+                href="{{ route('index') }}/?lang=en">ENTER</a></div>
+        <p>when enveloped in fog, it doesn't matter <br/> where we're coming from... <br/>
+            it only matters where we're going.</p>
+    </div>
+</div>
 
 <!-- BG Music Player -->
 <audio src="mix/ITF_1/2_Inertia.mp3" controls loop class="hidden" id="bg-audio"></audio>
 <div class="bg"></div>
 <div class="top">
     <div class="language">
-        <a href="?lang=pl" <?php if($lg=='pl'): ?> class="active" <?php endif; ?>>PL</a>
+        <a href="?lang=pl" class="active">PL</a>
         <span> | </span>
-        <a href="?lang=en" <?php if($lg=='en'): ?> class="active" <?php endif; ?>>EN</a>
+        <a href="?lang=en">EN</a>
     </div>
     <div class="audio">
         <span class="t-uppercase">Audio: </span>
@@ -485,9 +494,9 @@ include "config.php";
         function tryWidth() {
             var w = window.innerWidth;
 
-            // $( ".enter" ).on( "click", function() {
-            $(".on-btn").click();
-            // });
+            $(".enter").on("click", function () {
+                $(".on-btn").click();
+            });
 
             if (w > 767) {
                 impress().init();
@@ -542,16 +551,13 @@ include "config.php";
         $(".bottom").hide();
         $(".top").hide();
 
-        $("#loader-wrapper").fadeOut(1000);
-        $(".bottom").delay(800).slideDown(800, function () {
+        $(".enter").on("click", function () {
+            $("#loader-wrapper").fadeOut(1000);
+            $(".bottom").delay(800).slideDown(800, function () {
+            });
+            $(".top").delay(800).slideDown(800, function () {
+            });
         });
-        $(".top").delay(800).slideDown(800, function () {
-        });
-        /*  $( ".enter" ).on( "click", function() {
-              $("#loader-wrapper").fadeOut(1000);
-              $( ".bottom" ).delay( 800 ).slideDown( 800, function() {});
-              $( ".top" ).delay( 800 ).slideDown( 800, function() {});
-          });*/
 
 
         // Carousels

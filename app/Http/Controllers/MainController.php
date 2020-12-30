@@ -6,8 +6,17 @@ use Illuminate\Http\Request;
 
 class MainController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        return view('index');
+        $lg = 'pl';
+        if ($request->has('lang') && $request->lang == 'en') {
+            $lg = 'en';
+        }
+        return view('index', compact('lg'));
+    }
+
+    public function start()
+    {
+        return view('start');
     }
 }

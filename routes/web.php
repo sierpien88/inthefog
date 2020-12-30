@@ -11,7 +11,8 @@
 |
 */
 
-Route::get('/', 'MainController@index')->name('index');
+Route::get('/', 'MainController@start')->name('start');
+Route::get('/page', 'MainController@index')->name('index');
 
 Route::get('/administracja', 'DashboardController@index');
 Route::get('/home', 'DashboardController@index')->name('home');
