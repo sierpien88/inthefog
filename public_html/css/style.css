@@ -1,3 +1,4 @@
+@import "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css";
 #loader-wrapper {
   position: fixed;
   top: 0;
@@ -84,6 +85,10 @@
   .impress-supported .fallback-message, .impress-not-supported .fallback-message {
     display: none; }
 
+a {
+  color: #000;
+  text-decoration: none; }
+
 * {
   box-sizing: border-box;
   outline: none; }
@@ -162,7 +167,6 @@ body {
   100% {
     opacity: 0;
     transform: scale(1.8); } }
-
 .site-wrap {
   position: relative;
   height: 100%; }
@@ -182,7 +186,8 @@ body {
       padding-top: 20vw; } }
   .h1_box h1 {
     font-size: 2.5vw;
-    margin: 0; }
+    margin: 0;
+    font-weight: 100; }
     @media screen and (max-width: 767px) {
       .h1_box h1 {
         font-size: 10.5vw; } }
@@ -191,7 +196,8 @@ body {
     text-transform: uppercase;
     display: inline-block;
     padding: 0 0.26vw;
-    margin: 0 auto; }
+    margin: 0 auto;
+    font-weight: 100; }
     @media screen and (max-width: 767px) {
       .h1_box h2 {
         font-size: 7vw; }
@@ -623,14 +629,6 @@ body {
       margin-bottom: 10px; }
     .description .cd-desc .cd-track-list li {
       font-size: 1.1vw; }
-      .description .cd-desc .cd-track-list li::before {
-        content: '';
-        height: 0.8vw;
-        width: 0.8vw;
-        background-image: url("../images/play.png");
-        background-size: 100%;
-        display: inline-flex;
-        margin-right: 5px; }
 
 [class*=slide-], #start, .step {
   width: 100vw;
@@ -647,7 +645,6 @@ body {
   #slide2 {
     align-items: flex-start;
     padding-top: 5vw; } }
-
 #slide2 img {
   opacity: 0.8;
   max-width: 20vw; }
@@ -658,10 +655,8 @@ body {
 
 #slide5 .desc {
   margin-bottom: 1.563vw; }
-
 #slide5 .price {
   font-weight: 700; }
-
 #slide5 ul li {
   display: inline-block;
   margin-left: 1.5vw;
@@ -787,23 +782,18 @@ body {
 @-webkit-keyframes scroll {
   100% {
     background-position: 156.25vw 0vw; } }
-
 @-moz-keyframes scroll {
   100% {
     background-position: 156.25vw 0vw; } }
-
 @-o-keyframes scroll {
   100% {
     background-position: 156.25vw 0vw; } }
-
 @-ms-keyframes scroll {
   100% {
     background-position: 156.25vw 0vw; } }
-
 @keyframes scroll {
   100% {
     background-position: 156.25vw 0vw; } }
-
 .btn-wrap {
   margin: 0 auto;
   width: 10.417vw;
@@ -980,3 +970,214 @@ body {
     padding-bottom: 3vw; }
   .mobile-view #mobile-item-4 img {
     padding: 0 1vw; }
+
+.small-play-btn:before {
+  content: "\f04b";
+  font: 0.85em "FontAwesome";
+  color: #ddd;
+  display: inline-block; }
+
+.screen-reader-text {
+  /* Reusable, toolbox kind of class */
+  position: absolute;
+  top: -9999px;
+  left: -9999px; }
+
+.disabled {
+  color: #666;
+  cursor: default; }
+
+.show {
+  display: inline-block !important; }
+
+body {
+  margin: 10px 0 0 0; }
+  body .container {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0 auto;
+    width: 500px; }
+    body .container .player {
+      height: 60px;
+      margin: 0;
+      position: relative;
+      width: 400px;
+      /* Small devices (tablets, 768px and up) */
+      /* Medium devices (desktops, 992px and up) */
+      /* Large devices (large desktops, 1200px and up) */
+      *zoom: 1; }
+      @media (min-width: 768px) and (max-width: 991px) {
+        body .container .player {
+          width: 470px; } }
+      @media (min-width: 992px) and (max-width: 1100px) {
+        body .container .player {
+          width: 470px; } }
+      @media (min-width: 1200px) {
+        body .container .player {
+          width: 470px; } }
+      body .container .player .large-toggle-btn {
+        border: 1px solid #d9d9d9;
+        border-radius: 2px;
+        float: left;
+        font-size: 1.5em;
+        height: 50px;
+        margin: 0 10px 0 0;
+        overflow: hidden;
+        padding: 5px 0 0 0;
+        position: relative;
+        text-align: center;
+        vertical-align: bottom;
+        width: 54px; }
+        body .container .player .large-toggle-btn .large-play-btn {
+          cursor: pointer;
+          display: inline-block;
+          position: relative;
+          top: -14%; }
+          body .container .player .large-toggle-btn .large-play-btn:before {
+            content: "\f04b";
+            font: 1.5em/1.75 "FontAwesome"; }
+        body .container .player .large-toggle-btn .large-pause-btn {
+          cursor: pointer;
+          display: inline-block;
+          position: relative;
+          top: -13%; }
+          body .container .player .large-toggle-btn .large-pause-btn:before {
+            content: "\f04c";
+            font: 1.5em/1.75 "FontAwesome"; }
+      body .container .player .info-box {
+        bottom: 10px;
+        left: 65px;
+        position: absolute;
+        top: 15px; }
+        body .container .player .info-box .track-info-box {
+          float: left;
+          font-size: 12px;
+          margin: 0 0 6px 0;
+          visibility: hidden;
+          width: 400px;
+          *zoom: 1; }
+          body .container .player .info-box .track-info-box .track-title-text {
+            display: inline-block; }
+          body .container .player .info-box .track-info-box .audio-time {
+            display: inline-block;
+            padding: 0 0 0 5px;
+            width: 80px; }
+          body .container .player .info-box .track-info-box:before, body .container .player .info-box .track-info-box:after {
+            content: " ";
+            display: table; }
+          body .container .player .info-box .track-info-box:after {
+            clear: both;
+            display: block;
+            font-size: 0;
+            height: 0;
+            visibility: hidden; }
+      body .container .player .progress-box {
+        float: left;
+        min-width: 270px;
+        position: relative; }
+        body .container .player .progress-box .progress-cell {
+          height: 12px;
+          position: relative; }
+          body .container .player .progress-box .progress-cell .progress {
+            background: #fff;
+            border: 1px solid #d9d9d9;
+            height: 8px;
+            position: relative;
+            width: auto; }
+            body .container .player .progress-box .progress-cell .progress .progress-buffer {
+              background: #337ab7;
+              height: 100%;
+              width: 0; }
+            body .container .player .progress-box .progress-cell .progress .progress-indicator {
+              background: #fff;
+              border: 1px solid #bebebe;
+              border-radius: 3px;
+              cursor: pointer;
+              height: 10px;
+              left: 0;
+              overflow: hidden;
+              position: absolute;
+              top: -2px;
+              width: 22px; }
+      body .container .player .controls-box {
+        bottom: 10px;
+        left: 350px;
+        position: absolute; }
+        body .container .player .controls-box .previous-track-btn {
+          cursor: pointer;
+          display: inline-block; }
+          body .container .player .controls-box .previous-track-btn:before {
+            content: "\f049";
+            font: 1em "FontAwesome"; }
+        body .container .player .controls-box .next-track-btn {
+          cursor: pointer;
+          display: inline-block; }
+          body .container .player .controls-box .next-track-btn:before {
+            content: "\f050";
+            font: 1em "FontAwesome"; }
+      body .container .player:before, body .container .player:after {
+        content: " ";
+        display: table; }
+      body .container .player:after {
+        clear: both;
+        display: block;
+        font-size: 0;
+        height: 0;
+        visibility: hidden; }
+    body .container .play-list {
+      display: block;
+      margin: 0 auto 20px auto;
+      width: 100%; }
+      body .container .play-list .play-list-row {
+        display: block;
+        margin: 10px 0;
+        width: 100%;
+        *zoom: 1; }
+        body .container .play-list .play-list-row .track-title .playlist-track {
+          color: #000;
+          text-decoration: none; }
+          body .container .play-list .play-list-row .track-title .playlist-track:hover {
+            text-decoration: underline; }
+        body .container .play-list .play-list-row .small-toggle-btn {
+          border: 1px solid #d9d9d9;
+          border-radius: 2px;
+          cursor: pointer;
+          display: inline-block;
+          height: 20px;
+          margin: 0 auto;
+          overflow: hidden;
+          position: relative;
+          text-align: center;
+          vertical-align: middle;
+          width: 20px; }
+          body .container .play-list .play-list-row .small-toggle-btn .small-play-btn {
+            display: inline-block; }
+            body .container .play-list .play-list-row .small-toggle-btn .small-play-btn:before {
+              content: "\f04b";
+              font: 0.85em "FontAwesome"; }
+          body .container .play-list .play-list-row .small-toggle-btn .small-pause-btn {
+            display: inline-block; }
+            body .container .play-list .play-list-row .small-toggle-btn .small-pause-btn:before {
+              content: "\f04c";
+              font: 0.85em "FontAwesome"; }
+        body .container .play-list .play-list-row .track-number {
+          display: inline-block; }
+        body .container .play-list .play-list-row .track-title {
+          display: inline-block; }
+          body .container .play-list .play-list-row .track-title .playlist-track {
+            text-decoration: none; }
+            body .container .play-list .play-list-row .track-title .playlist-track:hover {
+              text-decoration: underline; }
+        body .container .play-list .play-list-row .track-title.active-track {
+          font-weight: bold; }
+        body .container .play-list .play-list-row:before, body .container .play-list .play-list-row:after {
+          content: " ";
+          display: table; }
+        body .container .play-list .play-list-row:after {
+          clear: both;
+          display: block;
+          font-size: 0;
+          height: 0;
+          visibility: hidden; }
+
+/*# sourceMappingURL=style.css.map */
