@@ -186,7 +186,7 @@ include "config.php";
                                                 <h4><?php echo $lang['tracklist']; ?>:</h4>
                                                 <ul class="cd-track-list">
                                                     <li>Intro: 1986
-                                                        <audio id="test" src="mix/ITF_2/1_Intro_1986.mp3" controls loop
+                                                        <audio src="mix/ITF_2/1_Intro_1986.mp3" controls loop
                                                             class="hidden" class="hidden-player"></audio>
                                                     </li>
                                                     <li>This is Pripyat
@@ -267,38 +267,38 @@ include "config.php";
                                 </div>
                                 <div class="col-lg-8">
                                     <div class="cd-desc">
-                                        <h2>Mirrorman | She.xist „In the Fog Part I“ Ten zmieniłam</h2>
+                                        <h2>Mirrorman | She.xist „In the Fog Part I“</h2>
                                         <ul>
                                             <div class="col-lg-6">
                                                 <h4><?php echo $lang['tracklist']; ?>:</h4>
                                                 <ul class="cd-track-list">
                                                     <li>Forgotten Afternoons
                                                         <audio src="mix/ITF_1/1_Forgotten_Afternoons.mp3" controls loop
-                                                            class="hidden" class="hidden-player" id="song1"></audio>
+                                                            class="hidden" class="hidden-player"></audio>
                                                     </li>
                                                     <li>Inertia
                                                         <audio src="mix/ITF_1/2_Inertia.mp3" controls loop
-                                                            class="hidden" class="hidden-player" id="song2"></audio>
+                                                            class="hidden" class="hidden-player"></audio>
                                                     </li>
                                                     <li>Limits of Hope
                                                         <audio src="mix/ITF_1/3_Limits_of_Hope.mp3" controls loop
-                                                            class="hidden" class="hidden-player" id="song3"></audio>
+                                                            class="hidden" class="hidden-player"></audio>
                                                     </li>
                                                     <li>Geiger Land
                                                         <audio src="mix/ITF_1/4_Geiger_Land.mp3" controls loop
-                                                            class="hidden" class="hidden-player" id="song4"></audio>
+                                                            class="hidden" class="hidden-player"></audio>
                                                     </li>
                                                     <li>Castle in the Fog
                                                         <audio src="mix/ITF_1/5_Castle _in_the_Fog.mp3" controls loop
-                                                            class="hidden" class="hidden-player" id="song5"></audio>
+                                                            class="hidden" class="hidden-player"></audio>
                                                     </li>
                                                     <li>Crown King
                                                         <audio src="mix/ITF_1/6_Crown_King.mp3" controls loop
-                                                            class="hidden" class="hidden-player" id="song6"></audio>
+                                                            class="hidden" class="hidden-player"></audio>
                                                     </li>
                                                     <li>Core Reactor
                                                         <audio src="mix/ITF_1/7_Core_Reactor.mp3" controls loop
-                                                            class="hidden" class="hidden-player" id="song7"></audio>
+                                                            class="hidden" class="hidden-player"></audio>
                                                     </li>
                                                 </ul>
                                             </div>
