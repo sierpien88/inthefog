@@ -420,7 +420,7 @@ include "config.php";
                 </div>
                 <div id="slide4" class="step" data-x="2900" data-y="-900">
                     <div class="description">
-                        <h3>Kontakt</h3>
+                        <h3><?php echo $lang['contact']; ?></h3>
                         <p>Chcesz wiedzieć więcej? <br />
                             Zapytaj: <a href="mailto:info@inthefog.net" target="_blank">info@inthefog.net</a></p>
                         <div class="icons">
@@ -565,7 +565,7 @@ include "config.php";
             if ($(this).hasClass('active')) {
 
                 $(this).removeClass('active');
-                $(this).find('audiofa').trigger('pause');
+                $(this).find('audio').trigger('pause');
                 $(this)
 
             } else {

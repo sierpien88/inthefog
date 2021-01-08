@@ -79,7 +79,6 @@
 
 .impress-supported, .impress-not-supported {
   z-index: 10;
-  position: absolute;
   width: 100%;
   height: 100%; }
   .impress-supported .fallback-message, .impress-not-supported .fallback-message {
@@ -594,7 +593,7 @@ body {
         font-size: 5vw; } }
   .description .cd-desc {
     text-align: left;
-    height: 50vh;
+    height: 70vh;
     overflow-y: auto;
     font-size: 1.1vw; }
     @media screen and (max-width: 1440px) {

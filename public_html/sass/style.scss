@@ -101,7 +101,7 @@
 
 .impress-supported, .impress-not-supported{
   z-index: 10;
-  position: absolute;
+  // position: absolute;
   width: 100%;
   height: 100%;
 
@@ -719,6 +719,7 @@ body {
   .main-carousel-2{
     width: 88.542vw;
     height: 26.042vw;
+    // height: 56.042vw;
     margin: 0 auto;
 
     .flickity-viewport{
@@ -815,7 +816,7 @@ body {
 
   .cd-desc {
     text-align: left;
-    height: 50vh;
+    height: 70vh;
     overflow-y: auto;
     font-size: 1.1vw;
 
