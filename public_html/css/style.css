@@ -629,6 +629,16 @@ body {
       margin-bottom: 10px; }
     .description .cd-desc .cd-track-list li {
       font-size: 1.1vw; }
+      .description .cd-desc .cd-track-list li.active::before {
+        background-image: url("../images/pause.png"); }
+      .description .cd-desc .cd-track-list li::before {
+        content: '';
+        height: 0.8vw;
+        width: 0.8vw;
+        background-image: url("../images/play.png");
+        background-size: 100%;
+        display: inline-flex;
+        margin-right: 5px; }
 
 [class*=slide-], #start, .step {
   width: 100vw;

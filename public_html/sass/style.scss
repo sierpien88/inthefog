@@ -870,17 +870,21 @@ body {
 
       li{
         font-size: 1.1vw;
+        &.active{
+          &::before {
+            background-image: url('../images/pause.png');
+          }
+        }
+        &::before {
 
-        // &::before {
-
-        //   content: '';
-        //   height: 0.8vw;
-        //   width: 0.8vw;
-        //   background-image: url('../images/play.png');
-        //   background-size: 100%;
-        //   display: inline-flex;
-        //   margin-right: 5px;
-        // }
+          content: '';
+          height: 0.8vw;
+          width: 0.8vw;
+          background-image: url('../images/play.png');
+          background-size: 100%;
+          display: inline-flex;
+          margin-right: 5px;
+        }
       }
     }
   }
