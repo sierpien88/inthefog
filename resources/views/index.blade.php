@@ -50,6 +50,7 @@ include "config.php";
                 <li><a href="#mobile-item-2"><?php echo $lang['music']; ?></a></li>
                 <li><a href="#mobile-item-1"><?php echo $lang['project']; ?></a></li>
                 <li><a href="#mobile-item-3"><?php echo $lang['mission']; ?></a></li>
+                <li><a href="#mobile-item-7"><?php echo $lang['pictures']; ?></a></li>
                 <li><a href="#mobile-item-4"><?php echo $lang['contact']; ?></a></li>
             </ul>
         </div>
@@ -67,19 +68,28 @@ include "config.php";
                         <img src="images/payu.png" />
                     </a>
                 </div> -->
-                <div class="sub-col-1">
-                    <a href="https://mirrormanshexist.bandcamp.com/releases">
+                <div>
+                    <a href=" https://mirrormanshexist.bandcamp.com/">
                         <img src="images/bandcamp.png" alt="Bandcamp" class="img-fluid"></a>
+                    <a href="https://open.spotify.com/album/2a5dxuk3Bfh72S2UbYd8eY?si=y6XuXqsrREWOGpG-nYIvqg ">
+                        <img src="images/icons/logo-spotify.svg" alt="Spotify" class="img-fluid"></a>
+                    <a
+                        href=" https://www.amazon.com/Fog-II-Mirrorman-She-xist/dp/B08S7HFX73/ref=sr_1_1?dchild=1&keywords=mirrorman+she.xist&qid=1610403321&sr=8-1 ">
+                        <img src="images/icons/amazon-2.svg" alt="Amazon" class="img-fluid"></a>
+                    <a href="https://music.apple.com/pl/album/in-the-fog-ii/1547562677?l=pl ">
+                        <img src="images/icons/apple-itunes.svg" alt="Apple Itunes" class="img-fluid"></a>
+                    <a href="https://www.youtube.com/INTHEFOGPROJECT ">
+                        <img src="images/icons/youtube-2.svg" alt="Youtube" class="img-fluid"></a>
                 </div>
-                <div class="sub-col-2">
-                    <span><?php echo $lang['download_mp3']; ?></span>
+                <!-- <div class="sub-col-2">
+                    <span><?php // echo $lang['download_mp3']; ?></span>
                     <a href="https://itunes.apple.com/us/album/in-the-fog/id514145069" target="_blank">
                         <img src="images/itunes.png" />
                     </a>
                     <a href="https://store.cdbaby.com/cd/mirrormanshexist" target="_blank">
                         <img src="images/cdbaby.png" />
                     </a>
-                </div>
+                </div> -->
             </div>
             <div class="col-2">
                 <?php echo $lang['income']; ?>
@@ -103,7 +113,7 @@ include "config.php";
         <div class="widget-2">
             <div class="col-1">
                 <p class="head"><?php echo $lang['for_media']; ?></p>
-                <a href="docs/PressPack-InTheFog.zip"><input type="button" value="pobierz press-pack" /></a>
+                <a href="docs/PressPack-InTheFog.pdf"><input type="button" value="pobierz press-pack" /></a>
             </div>
         </div>
     </div>
@@ -131,6 +141,8 @@ include "config.php";
             </div>
             <div class="panel__nav item-5"><a onclick="music()" href="#/slide2"><?php echo $lang['music']; ?></a></div>
             <div class="panel__nav item-4"><a onclick="contact()" href="#/slide4"><?php echo $lang['contact']; ?></a>
+            </div>
+            <div class="panel__nav item-6"><a onclick="pictures()" href="#/slide7"><?php echo $lang['pictures']; ?></a>
             </div>
         </div>
         <div class="impress-not-supported">
@@ -225,14 +237,16 @@ include "config.php";
                                                         <?php echo $lang['production']; ?></li>
                                                     <li>She.xist: <?php echo $lang['vocal']; ?> /
                                                         <?php echo $lang['lyrics']; ?></li>
-                                                    <li>Miks/<?php echo $lang['production']; ?>: Piotr Iwanek, <a
-                                                            href="http://totalsound.pl"
-                                                            target="_blank">totalsound.pl</a></li>
-                                                    <li>Mastering: Mikołaj Bugajak, <a href="http://audio-games.pl"
-                                                            target="_blank">audio-games.pl</a></li>
-                                                    <li><?php echo $lang['vocals']; ?> She.xist nagrane przez
-                                                        Neves/Creative, Victor Flores/ATM Studios and Daniel Bax.
-                                                    </li>
+                                                    <li>Emily Maguire: <?php echo $lang['vocal']; ?> /
+                                                        <?php echo $lang['lyrics']; ?></li>
+                                                    <li>Marta Złakowska: <?php echo $lang['vocal']; ?> /
+                                                        <?php echo $lang['lyrics']; ?></li>
+                                                    <li>Carine Fierobe: <?php echo $lang['vocal']; ?> /
+                                                        <?php echo $lang['lyrics']; ?></li>
+                                                    <li>Elizabeth Cole: <?php echo $lang['vocal']; ?></li>
+                                                    <li>Thomas Haydock: Saksofon</li>
+                                                    <li>Endless Melancholy: piano</li>
+                                                    <li>Mix/Mastering: Marcin Cichy, PlugAudio</li>
                                                 </ul>
                                             </div>
                                         </ul>
@@ -303,33 +317,16 @@ include "config.php";
                                                 </ul>
                                             </div>
                                             <div class="col-lg-6">
-                                                <li>Mirrorman: <?php echo $lang['music']; ?> /
-                                                    <?php echo $lang['production']; ?></li>
-                                                <li>She.xist: <?php echo $lang['vocal']; ?> /
-                                                    <?php echo $lang['lyrics']; ?></li>
-                                                <li>Miks / Mastering: Marcin Cichy, <a
-                                                        href="http://plugaudiomastering.com"
-                                                        target="_blank">plugaudiomastering.com</a></li>
-                                                <li><?php echo $lang['vocals']; ?> She.xist nagrane przez Bryan
-                                                    Boozer/Aum Studio Productions</li>
-                                                <li><?php echo $lang['vocals']; ?> Marty Złakowskiej nagrane przez
-                                                    XXX/Studio NoNagram</li>
-                                                <li><?php echo $lang['vocals']; ?> Emily Maguire przez Christian
-                                                    Dunham
-                                                    / Shaktu Records</li>
-                                                <li></li>
-                                                <ul class="no-image">
-                                                    <li>Emily Maguire: <?php echo $lang['vocal']; ?> /
+                                                <ul>
+                                                    <li>Mirrorman: <?php echo $lang['music']; ?> /
+                                                        <?php echo $lang['production']; ?></li>
+                                                    <li>She.xist: <?php echo $lang['vocal']; ?> /
                                                         <?php echo $lang['lyrics']; ?></li>
-                                                    <li>Marta Złakowska: <?php echo $lang['vocal']; ?> /
-                                                        <?php echo $lang['lyrics']; ?></li>
-                                                    <li>Carine Fierobe: <?php echo $lang['vocal']; ?> /
-                                                        <?php echo $lang['lyrics']; ?></li>
-                                                    <li>Dawid Portasz: <?php echo $lang['vocal']; ?> /
-                                                        <?php echo $lang['lyrics']; ?></li>
-                                                    <li>Thomas Haydock: Saksofon</li>
-                                                    <li>Elizabeth Cole: <?php echo $lang['vocal']; ?></li>
-                                                    <li>Endless Melancholy: piano</li>
+                                                    <li>Miks/<?php echo $lang['production']; ?>: Piotr Iwanek, <a
+                                                            href="http://totalsound.pl"
+                                                            target="_blank">totalsound.pl</a></li>
+                                                    <li>Mastering: Mikołaj Bugajak, <a href="http://audio-games.pl"
+                                                            target="_blank">audio-games.pl</a></li>
                                                 </ul>
                                             </div>
                                         </ul>
@@ -341,79 +338,19 @@ include "config.php";
                 </div>
                 <div id="slide3" class="step" data-x="2900" data-y="800">
                     <div class="description">
-                        <h3>Misja</h3>
+                        <h3><?php echo $lang['mission']; ?></h3>
                         <div class="main-carousel">
                             <div class="carousel-cell cell1">
-                                <p>Nie chodzi o otwieranie starych ran... one się nigdy nie zamknęły... i jeszcze długo
-                                    nie
-                                    zamkną... dlatego nie próbuj zamykać ich na siłę.
-                                    We mgle nie ma znaczenia skąd przychodzimy... ważne jest dokąd idziemy.
-                                </p>
-                                <p class="m-t-10">
-                                    Całkowity dochód ze sprzedaży naszej muzyki wspiera najbiedniejsze dzieci z Ukrainy
-                                    i
-                                    Białorusi, cierpiących na schorzenia genetyczne będącę następstwem katastrofy w
-                                    elektrowni atamowej w Czarnobylu w 1986 roku.
-                                    Uzyskane w ten sposób pieniądze finansują m.in. operacje kardiochirurgiczne ratujące
-                                    ich
-                                    życie.
-                                </p>
-                                <p class="m-t-10">
-                                    Mirrorman | She.xist dumnie wspiera w ten sposób działania Chernobyl Children
-                                    International – pozarządowej organizacji, która koordynuje szerokie programy
-                                    pomocowe
-                                    dla najbardziej potrzebujących społeczności lokalnych.
-                                </p>
+                                <?php echo $lang['mission-cell1']; ?>
                             </div>
                             <div class="carousel-cell cell2">
-                                <p>Jeśli czytasz te słowa... oznacza to, że właśnie stajesz się częścią tej
-                                    historii...bezimiennym dawcą obietnicy, że jutro nie musi być końcem ich marzeń.</p>
-                                <p class="m-t-10">
-                                    Katastrofa w Czarnobylu wygenerowała 200 razy większy poziom promieniowania aniżeli
-                                    ten,
-                                    który jest przypisywany bombom atomowym zrzuconym na Hiroszimę i Nagasaki.
-                                    Początkowo uważano, że w wyniku wypadku uwolniło się promieniowanie o wartości 100
-                                    milionów kiurów, jednakże dzisiaj naukowcy skłaniają się ku hipotezie, iż była to
-                                    wielkość bliska 250 milionom kiurów.
-                                    70% promieniowania spadło na terytorium Białorusi skażając w ten sposób populację 7
-                                    000
-                                    000 ludzi. Blisko 800 000 ludzi narażało swoje życie przyjmując niebezpieczne dawki
-                                    promieniowania podczas prac związanych z neutralizacją skutków katastrofy.
-                                    Przynajmniek
-                                    25 000 osób z tej grupy nie żyje a kolejne 70 000 jest niepełnosprawne. 20% zgonów
-                                    nastąpiło w wyniku samobójstwa.
-
-                                </p>
+                                <?php echo $lang['mission-cell2']; ?>
                             </div>
                             <div class="carousel-cell cell3">
-                                <p>
-                                    Co roku na Ukrainie rodzi się około 6000 dzieci z genetycznymi wadami serca będącymi
-                                    następstwem katastrofy nuklearnej w Czarnobylu w 1986 roku.
-                                    Dzieci te wymagają pilnych operacji kardiochirurgicznych ratujących ich życie. </p>
-                                <p class="m-t-10">
-                                    Ponad 3000 umiera z powodu braku odpowiedniej opieki medycznej.
-                                </p>
-                                <p class="m-t-10">
-
-                                    Obecnie notuje się około 200% wzrost defektów genetycznych oraz ponad 250% wzrost
-                                    wrodzonych deformacji u dzieci urodzonych po 1986 roku.</p>
-                                <p class="m-t-10">
-                                    85% białoruskich dzieci uważa się za ofiary katastrofy czarnobylskiej: noszą w sobie
-                                    skazy genetyczne, które w każdej chwili mogą objawić
-                                    się w postaci problemów zdrowotnych i dodatkowo być przekazane przyszłym
-                                    pokoleniom.<br />
-
-                                </p>
+                                <?php echo $lang['mission-cell3']; ?>
                             </div>
                             <div class="carousel-cell cell4">
-                                <p>Każdemu dziecku żyjącemu w instytucji typu sierociniec lub ośrodek dla osób
-                                    z zaburzeniami psychicznymi przysługuje dzienna "stawka życiowa" w wysokości 1 EUR.
-                                </p>
-                                <p class="m-t-10">
-                                    W 2004 roku prawie 27% dzieci w wieku mniej niż 17 lat żyło poniżej granicy ubóstwa.
-                                    Ponad 1 000 000 dzieci nadal żyje w strefach skażonych.
-                                </p>
-                                <p class="source">(źródło: Chernobyl Children International)</p>
+                                <?php echo $lang['mission-cell4']; ?>
                             </div>
                         </div>
                     </div>
@@ -436,11 +373,8 @@ include "config.php";
                 </div>
                 <div id="slide5" class="step" data-x="-2200" data-y="-900">
                     <div class="description">
-                        <p class="desc">Całkowity dochód ze sprzedaży tej płyty wesprze najbiedniejsze dzieci z Ukrainy
-                            i
-                            Bialorusi ze schorzeniami genetycznymi będącymi następstwem katastrofy w elektrowni atomowej
-                            w
-                            Czernobylu w 1986 roku.
+                        <p class="desc">
+                            <?php echo $lang['moneyforchildrens']; ?>
                         </p>
                         <p class="price">Cena wraz z kosztami przesylki: 26,99 PLN</p>
 
@@ -459,191 +393,265 @@ include "config.php";
                         <div class="covers">
                             <div class="col-lg-6">
                                 <img class="cover" src="images/cd1.jpg" />
-                                <div class="cd"> ITF 1
-                                    <img src="images/pp.gif" class="paypal-btn" />
+                                <div class="cd">
+                                    <a href="https://mirrormanshexist.bandcamp.com/releases" target="_blank">
+                                        <img src="images/pp.gif" class="paypal-btn" />
+                                    </a>
                                 </div>
-                                <form action="" method="post" name="payform">
+                                <!-- <form action="" method="post" name="payform">
                                     <label class="pl">Imię: </label><br><input type="text" name="first_name"><br>
                                     <label class="pl">Nazwisko: </label><br><input type="text" name="last_name"><br>
                                     <label class="pl">Email: </label><br><input type="email" name="email"><br>
                                     <p>Zapłać poprzez:<img src="images/payu-dark.png" /></p>
-                                </form>
+                                </form> -->
                             </div>
                             <div class="col-lg-6">
                                 <img class="cover" src="images/cd2.jpg" />
-                                <div class="cd"> ITF 2
-                                    <img src="images/pp.gif" class="paypal-btn" />
+                                <div class="cd">
+                                    <a href="https://mirrormanshexist.bandcamp.com/releases" target="_blank">
+                                        <img src="images/pp.gif" class="paypal-btn" />
+                                    </a>
                                 </div>
-                                <form action="" method="post" name="payform">
+                                <!-- <form action="" method="post" name="payform">
                                     <label class="pl">Imię: </label><br><input type="text" name="first_name"><br>
                                     <label class="pl">Nazwisko: </label><br><input type="text" name="last_name"><br>
                                     <label class="pl">Email: </label><br><input type="email" name="email"><br>
                                     <p>Zapłać poprzez:<img src="images/payu-dark.png" /></p>
-                                </form>
+                                </form> -->
                             </div>
                         </div>
                     </div>
 
                 </div>
+                <div id="slide7" class="step" data-x="2900" data-y="800">
+                    <div class="description video-container">
+                        <div class="main-carousel-3">
+                            <div class="carousel-cell">
+                                <div class="col-lg-6">
+                                    <iframe width="100%" height="362" src="https://www.youtube.com/embed/1k3zsrRShfY"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="col-lg-6">
+                                    <h4 class="video-title"> MIRRORMAN | SHE.XIST feat. THOMAS HAYDOCK - 'THIS IS
+                                        PRIPYAT'
+                                    </h4>
+                                    <p class="ml-3"><?php echo $lang['yttext1']; ?></p>
+                                </div>
+                            </div>
+                            <div class="carousel-cell">
+                                <div class="col-lg-6">
+                                    <iframe width="100%" height="362" src="https://www.youtube.com/embed/P0N30LJTPTk"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="col-lg-6">
+                                    <h4 class="video-title"> MIRRORMAN | SHE.XIST feat. ENDLESS MELANCHOLY & ELIZABETH
+                                        COLE - 'INTRO: 1986'
+                                    </h4>
+                                    <p class="ml-3"><?php echo $lang['yttext2']; ?></p>
+                                </div>
+                            </div>
+                            <div class="carousel-cell">
+                                <div class="col-lg-6">
+                                    <iframe width="100%" height="362" src="https://www.youtube.com/embed/pVaCd5i7TxQ"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="col-lg-6">
+                                    <h4 class="video-title"> MIRRORMAN | SHE.XIST - 'CASTLE IN THE FOG'
+                                    </h4>
+                                    <p class="ml-3"><?php echo $lang['yttext3']; ?></p>
+                                </div>
+                            </div>
+                            <div class="carousel-cell">
+                                <div class="col-lg-6">
+                                    <iframe width="100%" height="362" src="https://www.youtube.com/embed/7O77Lj8ZPcs"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="col-lg-6">
+                                    <h4 class="video-title"> MIRRORMAN | SHE.XIST - 'INERTIA'
+                                    </h4>
+                                    <p class="ml-3"><?php echo $lang['yttext4']; ?></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fallback-message">
+                        <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented
+                            with a
+                            simplified version of this presentation.</p>
+                        <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b>
+                            browser.
+                        </p>
+                    </div>
+                </div>
+                <div class="mobile-view">
+                    <div class="description"></div>
+                </div>
             </div>
-            <div class="fallback-message">
-                <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a
-                    simplified version of this presentation.</p>
-                <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.
-                </p>
-            </div>
-        </div>
-        <div class="mobile-view">
-            <div class="description"></div>
-        </div>
-    </div>
 
-    <script type="text/javascript" src="js/impress.js"></script>
-    <script>
-    $(document).ready(function() {
+            <script type="text/javascript" src="js/impress.js"></script>
+            <script>
+            $(document).ready(function() {
 
-        function tryWidth() {
-            var w = window.innerWidth;
+                function tryWidth() {
+                    var w = window.innerWidth;
 
-            // $( ".enter" ).on( "click", function() {
-            $(".on-btn").click();
-            // });
+                    // $( ".enter" ).on( "click", function() {
+                    $(".on-btn").click();
+                    // });
 
-            if (w > 767) {
-                impress().init();
-            } else {
-                var slide1 = "<div id='mobile-item-1'><h3>" + $('#slide1 h3').html() + "</h3>" + $(
-                    '#slide1 .cell1').html() + $('#slide1 .cell2').html() + "</div>";
-                var slide2 = "<div id='mobile-item-2'>" + $('#slide2 #cd1 .play').html() + $(
-                    '#slide2 #cd1 .cd-desc').html() + $('#slide2 #cd2 .play').html() + $(
-                    '#slide2 #cd2 .cd-desc').html() + "</div>";
-                var slide3 = "<div id='mobile-item-3'><h3>" + $('#slide3 h3').html() + "</h3>" + $(
-                        '#slide3 .cell1').html() + $('#slide3 .cell2').html() + $('#slide3 .cell3')
-                    .html() + $(
-                        '#slide3 .cell4').html() + "</div>";
+                    if (w > 767) {
+                        impress().init();
+                    } else {
+                        var slide1 = "<div id='mobile-item-1'><h3>" + $('#slide1 h3').html() + "</h3>" + $(
+                            '#slide1 .cell1').html() + $('#slide1 .cell2').html() + "</div>";
+                        var slide2 = "<div id='mobile-item-2'>" + $('#slide2 #cd1 .play').html() + $(
+                            '#slide2 #cd1 .cd-desc').html() + $('#slide2 #cd2 .play').html() + $(
+                            '#slide2 #cd2 .cd-desc').html() + "</div>";
+                        var slide3 = "<div id='mobile-item-3'><h3>" + $('#slide3 h3').html() + "</h3>" + $(
+                                '#slide3 .cell1').html() + $('#slide3 .cell2').html() + $('#slide3 .cell3')
+                            .html() + $(
+                                '#slide3 .cell4').html() + "</div>";
 
-                var slide4 = "<div id='mobile-item-4'>" + $('#slide4 .description').html() + "</div>";
+                        var slide4 = "<div id='mobile-item-4'>" + $('#slide4 .description').html() + "</div>";
 
-                var slide5 = "<div id='mobile-item-5'>" + $('#slide5 .description').html() + "</div>";
+                        var slide5 = "<div id='mobile-item-5'>" + $('#slide5 .description').html() + "</div>";
 
-                var slide6 =
-                    "<div id='mobile-item-6'> <h3>Dla mediów</h3> <a href=\"docs/PressPack-InTheFog.zip\"><input type=\"button\" value=\"pobierz press-pack\"></a></div>";
+                        var slide7 = "<div id='mobile-item-7'>" + $('#slide7 .description').html() + "</div>";
 
-                var htmlString = slide2 + slide5 + slide1 + slide3 + slide4 + slide6;
+                        var slide6 =
+                            "<div id='mobile-item-6'> <h3>Dla mediów</h3> <a href=\"docs/PressPack-InTheFog.pdf\"><input type=\"button\" value=\"pobierz press-pack\"></a></div>";
 
-                $('#impress').remove();
-                $('div.impress-not-supported').remove();
-                $('.menu').remove();
-                $('.mobile-view .description').html(htmlString);
+                        var htmlString = slide2 + slide5 + slide1 + slide3 + slide4 + slide7 + slide6;
+
+                        $('#impress').remove();
+                        $('div.impress-not-supported').remove();
+                        $('.menu').remove();
+                        $('.mobile-view .description').html(htmlString);
+                    }
+                }
+
+                tryWidth();
+
+                // Audio ON/OFF
+
+                $(".on-btn").on("click", function() {
+                    $('audio').trigger('pause');
+                    $('#bg-audio').trigger('play');
+
+                    $(".off-btn").removeClass("active");
+                    $(this).addClass("active");
+                });
+
+                $(".off-btn").on("click", function() {
+                    $('#bg-audio').trigger('pause');
+
+                    $(".on-btn").removeClass("active");
+                    $(this).addClass("active");
+                });
+
+
+                $(".cd-track-list li").click(function() {
+
+                    var audio = $(this).find('audio');
+
+                    if ($(this).hasClass('active')) {
+
+                        $(this).removeClass('active');
+                        $(this).find('audio').trigger('pause');
+                        $(this)
+
+                    } else {
+                        $(".cd-track-list li").removeClass('active').find('audio').trigger('pause');
+                        $(this).addClass('active');
+                        $(this).find('audio').trigger('play');
+                    }
+
+                });
+
+
+
+                // Animations
+
+                $(".bottom").hide();
+                $(".top").hide();
+
+                $("#loader-wrapper").fadeOut(1000);
+                $(".bottom").delay(800).slideDown(800, function() {});
+                $(
+                    ".top").delay(800).slideDown(800, function() {});
+                /*  $( ".enter" ).on( "click", function() {
+                      $("#loader-wrapper").fadeOut(1000);
+                      $( ".bottom" ).delay( 800 ).slideDown( 800, function() {});
+                      $( ".top" ).delay( 800 ).slideDown( 800, function() {});
+                  });*/
+
+
+                // Carousels
+
+                $('.main-carousel').flickity({
+                    // options
+                    cellAlign: 'left',
+                    contain: true,
+                    prevNextButtons: false
+                });
+
+                $('.main-carousel-2').flickity({
+                    // options
+                    cellAlign: 'left',
+                    contain: true,
+                    pageDots: false
+                });
+
+                $('.main-carousel-3').flickity({
+                    // options
+                    cellAlign: 'left',
+                    contain: true,
+                    pageDots: false
+                });
+
+
+
+                $('.menu .panel__nav a').on('click', function() {
+                    $('.menu .panel__nav a').css('font-weight', '400');
+                    $(this).css('font-weight', '700');
+                });
+
+            });
+
+
+            function project() {
+                $('#lang_pl').attr('href', '?lang=pl/slide1')
+                $('#lang_en').attr('href', '?lang=en/slide1')
             }
-        }
 
-        tryWidth();
-
-        // Audio ON/OFF
-
-        $(".on-btn").on("click", function() {
-            $('audio').trigger('pause');
-            $('#bg-audio').trigger('play');
-
-            $(".off-btn").removeClass("active");
-            $(this).addClass("active");
-        });
-
-        $(".off-btn").on("click", function() {
-            $('#bg-audio').trigger('pause');
-
-            $(".on-btn").removeClass("active");
-            $(this).addClass("active");
-        });
-
-
-        $(".cd-track-list li").click(function() {
-
-            var audio = $(this).find('audio');
-
-            if ($(this).hasClass('active')) {
-
-                $(this).removeClass('active');
-                $(this).find('audio').trigger('pause');
-                $(this)
-
-            } else {
-                $(".cd-track-list li").removeClass('active').find('audio').trigger('pause');
-                $(this).addClass('active');
-                $(this).find('audio').trigger('play');
+            function buy_cds() {
+                $('#lang_pl').attr('href', '?lang=pl#/slide5')
+                $('#lang_en').attr('href', '?lang=en#/slide5')
             }
 
-        });
+            function mission() {
+                $('#lang_pl').attr('href', '?lang=pl#/slide3')
+                $('#lang_en').attr('href', '?lang=en#/slide3')
+            }
 
+            function music() {
+                $('#lang_pl').attr('href', '?lang=pl#/slide2')
+                $('#lang_en').attr('href', '?lang=en#/slide2')
+            }
 
-
-        // Animations
-
-        $(".bottom").hide();
-        $(".top").hide();
-
-        $("#loader-wrapper").fadeOut(1000);
-        $(".bottom").delay(800).slideDown(800, function() {});
-        $(
-            ".top").delay(800).slideDown(800, function() {});
-        /*  $( ".enter" ).on( "click", function() {
-              $("#loader-wrapper").fadeOut(1000);
-              $( ".bottom" ).delay( 800 ).slideDown( 800, function() {});
-              $( ".top" ).delay( 800 ).slideDown( 800, function() {});
-          });*/
-
-
-        // Carousels
-
-        $('.main-carousel').flickity({
-            // options
-            cellAlign: 'left',
-            contain: true,
-            prevNextButtons: false
-        });
-
-        $('.main-carousel-2').flickity({
-            // options
-            cellAlign: 'left',
-            contain: true,
-            pageDots: false
-        });
-
-
-        $('.menu .panel__nav a').on('click', function() {
-            $('.menu .panel__nav a').css('font-weight', '400');
-            $(this).css('font-weight', '700');
-        });
-
-    });
-
-
-    function project() {
-        $('#lang_pl').attr('href', '?lang=pl/slide1')
-        $('#lang_en').attr('href', '?lang=en/slide1')
-    }
-
-    function buy_cds() {
-        $('#lang_pl').attr('href', '?lang=pl#/slide5')
-        $('#lang_en').attr('href', '?lang=en#/slide5')
-    }
-
-    function mission() {
-        $('#lang_pl').attr('href', '?lang=pl#/slide3')
-        $('#lang_en').attr('href', '?lang=en#/slide3')
-    }
-
-    function music() {
-        $('#lang_pl').attr('href', '?lang=pl#/slide2')
-        $('#lang_en').attr('href', '?lang=en#/slide2')
-    }
-
-    function contact() {
-        $('#lang_pl').attr('href', '?lang=pl#/slide4')
-        $('#lang_en').attr('href', '?lang=en#/slide4')
-    }
-    </script>
+            function contact() {
+                $('#lang_pl').attr('href', '?lang=pl#/slide4')
+                $('#lang_en').attr('href', '?lang=en#/slide4')
+            }
+            </script>
 
 </body>
 

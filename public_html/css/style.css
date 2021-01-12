@@ -154,6 +154,9 @@ body {
     right: 1.823vw; }
   .menu .item-5 {
     right: 0; }
+  .menu .item-6 {
+    right: 7.5vw;
+    top: 4.8vw; }
   .menu a {
     transition: font-weight 100ms linear; }
 
@@ -343,7 +346,7 @@ body {
     max-height: 100%; }
   .bottom .widget-1 {
     font-family: 'Open Sans', sans-serif;
-    width: 32.292vw;
+    width: 42.292vw;
     align-items: center;
     display: flex;
     float: left; }
@@ -460,6 +463,9 @@ body {
       .bottom .widget-3 .mail p a {
         color: #d0d0ce; }
 
+svg {
+  fill: #fff; }
+
 .bg {
   background-image: url("../images/bg.jpg");
   background-repeat: no-repeat;
@@ -488,6 +494,38 @@ body {
   height: calc(100% - 4.7vw);
   opacity: 1;
   z-index: 0; }
+
+.text-center {
+  text-align: center; }
+
+#slide7 {
+  text-align: left; }
+  #slide7 .video-title {
+    font-size: 1.3vw;
+    margin-top: 8vw; }
+  #slide7 .video-container {
+    text-align: center; }
+  #slide7 .description p {
+    width: 100%;
+    padding: 0 1rem; }
+  #slide7 .flickity-prev-next-button.previous {
+    right: 24% !important; }
+  #slide7 .flickity-prev-next-button.next {
+    right: 20% !important; }
+
+.main-carousel-3 {
+  width: 88.542vw;
+  height: 26.042vw;
+  margin: 0 auto; }
+  .main-carousel-3 .flickity-viewport {
+    height: 26.042vw !important; }
+    @media screen and (max-width: 1366px) {
+      .main-carousel-3 .flickity-viewport {
+        height: 30vw !important; } }
+    @media screen and (max-width: 850px) {
+      .main-carousel-3 .flickity-viewport {
+        height: 55vw !important;
+        width: 100vw; } }
 
 .description {
   margin-top: -6.771vw;
